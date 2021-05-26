@@ -1,4 +1,4 @@
-ui.new_string("LUA", "B", "--- CorsAA ---")
+ui.new_label("LUA", "B", "--- CorsAA ---")
 local enableClantag = ui.new_checkbox("LUA", "B", "CorsAA Clantag")
 local corsaa = "CorsAA"
 
