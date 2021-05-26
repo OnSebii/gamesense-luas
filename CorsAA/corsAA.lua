@@ -1,4 +1,4 @@
-local enableClantag = ui.new_checkbox("LUA", "B", "CorsAA Clantag")
+-- local enableClantag = ui.new_checkbox("LUA", "B", "CorsAA Clantag")
 local corsaa = "CorsAA"
 
 local hotkey = ui.new_hotkey('LUA', 'B', 'Force on shot')
