@@ -1,11 +1,10 @@
-local CorsAAUI = ui.new_label("LUA", "B", "---CorsAA---")
 local enableClantag = ui.new_checkbox("LUA", "B", "CorsAA Clantag")
 local corsaa = "CorsAA"
 
-local hotkey = ui.new_hotkey('rage', 'other', 'Force on shot')
-local indicator = ui.new_checkbox('rage', 'other', 'Force on shot indicator')
-local multipoint = ui.reference('rage', 'aimbot', 'multi-point')
-local target_hitbox = ui.reference('rage', 'aimbot', 'target hitbox')
+local hotkey = ui.new_hotkey('LUA', 'B', 'Force on shot')
+local indicator = ui.new_checkbox('LUA', 'B', 'Force on shot indicator')
+local multipoint = ui.reference('LUA', 'B', 'multi-point')
+local target_hitbox = ui.reference('LUA', 'B', 'target hitbox')
 
 local ui_get, ui_set = ui.get, ui.set
 local globals_curtime, globals_tickinterval = globals.curtime, globals.tickinterval
