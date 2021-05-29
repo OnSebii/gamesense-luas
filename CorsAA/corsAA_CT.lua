@@ -27,7 +27,7 @@ local richgang = "richgang"
 local hoodrich = "hoodrich"
 local hurensohn = "hurensohn"
 
-local enabled_reference = ui.new_combobox("MISC", "Miscellaneous", "Clan tag spammer", {"Off", "gamesense", skeet_tag_name, richgang, hoodbroke, hoodrich, aimheadz, gamesneeze, esoWixxaSENSE, hurensohn, stiegl, ottakring, gosser, punti})
+local enabled_reference = ui.new_combobox("MISC", "Miscellaneous", "Clan tag spammer", {"Off", "gamesense", skeet_tag_name, richgang, corsaa, hoodrich, zafiraa, opel, hurensohn})
 local default_reference = ui.reference("MISC", "Miscellaneous", "Clan tag spammer")
 
 local clan_tag_prev = ""
