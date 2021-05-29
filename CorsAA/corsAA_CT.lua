@@ -21,7 +21,7 @@ end
 
 local skeet_tag_name = "skeet.cc (Old)"
 local corsaa = "CorsAA"
-local corsaa = "ZafirAA"
+local zafiraa = "ZafirAA"
 local opel = "opel"
 local richgang = "richgang"
 local hoodrich = "hoodrich"
@@ -71,41 +71,9 @@ local function run_tag_animation()
 		end
 		clan_tag_prev = clan_tag
 	end
-	if ui_get(enabled_reference) == hoodbroke then
-		--don't advertise other cheats using this or drone strike
-		local clan_tag = gamesense_anim("hoodbroke", {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 11, 11, 11, 11, 11, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22})
-		if clan_tag ~= clan_tag_prev then
-			client_set_clan_tag(clan_tag)
-		end
-		clan_tag_prev = clan_tag
-	end
 	if ui_get(enabled_reference) == hoodrich then
 		--don't advertise other cheats using this or drone strike
 		local clan_tag = gamesense_anim("hoodrich", {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 11, 11, 11, 11, 11, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22})
-		if clan_tag ~= clan_tag_prev then
-			client_set_clan_tag(clan_tag)
-		end
-		clan_tag_prev = clan_tag
-	end
-	if ui_get(enabled_reference) == aimheadz then
-		--don't advertise other cheats using this or drone strike
-		local clan_tag = gamesense_anim("aimheadz", {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 11, 11, 11, 11, 11, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22})
-		if clan_tag ~= clan_tag_prev then
-			client_set_clan_tag(clan_tag)
-		end
-		clan_tag_prev = clan_tag
-	end
-	if ui_get(enabled_reference) == gamesneeze then
-		--don't advertise other cheats using this or drone strike
-		local clan_tag = gamesense_anim("gamesneeze", {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 11, 11, 11, 11, 11, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22})
-		if clan_tag ~= clan_tag_prev then
-			client_set_clan_tag(clan_tag)
-		end
-		clan_tag_prev = clan_tag
-	end
-	if ui_get(enabled_reference) == esoWixxaSENSE then
-		--don't advertise other cheats using this or drone strike
-		local clan_tag = gamesense_anim("esoWixxaSENSE", {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 11, 11, 11, 11, 11, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22})
 		if clan_tag ~= clan_tag_prev then
 			client_set_clan_tag(clan_tag)
 		end
@@ -119,33 +87,25 @@ local function run_tag_animation()
 		end
 		clan_tag_prev = clan_tag
 	end
-	if ui_get(enabled_reference) == stiegl then
+    	if ui_get(enabled_reference) == corsaa then
 		--don't advertise other cheats using this or drone strike
-		local clan_tag = gamesense_anim("$ti€gl", {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 11, 11, 11, 11, 11, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22})
+		local clan_tag = gamesense_anim("CorsAA", {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 11, 11, 11, 11, 11, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22})
 		if clan_tag ~= clan_tag_prev then
 			client_set_clan_tag(clan_tag)
 		end
 		clan_tag_prev = clan_tag
 	end
-	if ui_get(enabled_reference) == ottakring then
+    	if ui_get(enabled_reference) == zafiraa then
 		--don't advertise other cheats using this or drone strike
-		local clan_tag = gamesense_anim("0ttakr1ng", {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 11, 11, 11, 11, 11, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22})
+		local clan_tag = gamesense_anim("ZafirAA", {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 11, 11, 11, 11, 11, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22})
 		if clan_tag ~= clan_tag_prev then
 			client_set_clan_tag(clan_tag)
 		end
 		clan_tag_prev = clan_tag
 	end
-	if ui_get(enabled_reference) == gosser then
+    	if ui_get(enabled_reference) == opel then
 		--don't advertise other cheats using this or drone strike
-		local clan_tag = gamesense_anim("gö$$er", {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 11, 11, 11, 11, 11, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22})
-		if clan_tag ~= clan_tag_prev then
-			client_set_clan_tag(clan_tag)
-		end
-		clan_tag_prev = clan_tag
-	end
-		if ui_get(enabled_reference) == punti then
-		--don't advertise other cheats using this or drone strike
-		local clan_tag = gamesense_anim("punt1g4y3r", {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 11, 11, 11, 11, 11, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22})
+		local clan_tag = gamesense_anim("opel", {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 11, 11, 11, 11, 11, 11, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22})
 		if clan_tag ~= clan_tag_prev then
 			client_set_clan_tag(clan_tag)
 		end
@@ -165,7 +125,7 @@ local function on_paint(ctx)
 		if local_player ~= nil and (not entity_is_alive(local_player)) and globals_tickcount() % 2 == 0 then --missing noclip check
 			run_tag_animation()
 		end
-	elseif enabled == hoodbroke then
+	elseif enabled == opel then
 		local local_player = entity_get_local_player()
 		if local_player ~= nil and (not entity_is_alive(local_player)) and globals_tickcount() % 2 == 0 then --missing noclip check
 			run_tag_animation()
@@ -175,42 +135,17 @@ local function on_paint(ctx)
 		if local_player ~= nil and (not entity_is_alive(local_player)) and globals_tickcount() % 2 == 0 then --missing noclip check
 			run_tag_animation()
 		end
-	elseif enabled == aimheadz then
+	elseif enabled == zafiraa then
 		local local_player = entity_get_local_player()
 		if local_player ~= nil and (not entity_is_alive(local_player)) and globals_tickcount() % 2 == 0 then --missing noclip check
 			run_tag_animation()
 		end
-	elseif enabled == gamesneeze then
-		local local_player = entity_get_local_player()
-		if local_player ~= nil and (not entity_is_alive(local_player)) and globals_tickcount() % 2 == 0 then --missing noclip check
-			run_tag_animation()
-		end
-	elseif enabled == esoWixxaSENSE then
+	elseif enabled == corsaa then
 		local local_player = entity_get_local_player()
 		if local_player ~= nil and (not entity_is_alive(local_player)) and globals_tickcount() % 2 == 0 then --missing noclip check
 			run_tag_animation()
 		end
 	elseif enabled == hurensohn then
-		local local_player = entity_get_local_player()
-		if local_player ~= nil and (not entity_is_alive(local_player)) and globals_tickcount() % 2 == 0 then --missing noclip check
-			run_tag_animation()
-		end
-	elseif enabled == stiegl then
-		local local_player = entity_get_local_player()
-		if local_player ~= nil and (not entity_is_alive(local_player)) and globals_tickcount() % 2 == 0 then --missing noclip check
-			run_tag_animation()
-		end
-	elseif enabled == ottakring then
-		local local_player = entity_get_local_player()
-		if local_player ~= nil and (not entity_is_alive(local_player)) and globals_tickcount() % 2 == 0 then --missing noclip check
-			run_tag_animation()
-		end
-	elseif enabled == gosser then
-		local local_player = entity_get_local_player()
-		if local_player ~= nil and (not entity_is_alive(local_player)) and globals_tickcount() % 2 == 0 then --missing noclip check
-			run_tag_animation()
-		end
-	elseif enabled == punti then
 		local local_player = entity_get_local_player()
 		if local_player ~= nil and (not entity_is_alive(local_player)) and globals_tickcount() % 2 == 0 then --missing noclip check
 			run_tag_animation()
@@ -233,7 +168,7 @@ local function on_run_command(e)
 			run_tag_animation()
 		end
 	end
-	if ui_get(enabled_reference) == hoodbroke then
+	if ui_get(enabled_reference) == zafiraa then
 		if e.chokedcommands == 0 then
 			run_tag_animation()
 		end
@@ -243,42 +178,17 @@ local function on_run_command(e)
 			run_tag_animation()
 		end
 	end
-	if ui_get(enabled_reference) == aimheadz then
+	if ui_get(enabled_reference) == corsaa then
 		if e.chokedcommands == 0 then
 			run_tag_animation()
 		end
 	end
-	if ui_get(enabled_reference) == esoWixxaSENSE then
-		if e.chokedcommands == 0 then
-			run_tag_animation()
-		end
-	end
-	if ui_get(enabled_reference) == aimheadz then
+	if ui_get(enabled_reference) == opel then
 		if e.chokedcommands == 0 then
 			run_tag_animation()
 		end
 	end
 	if ui_get(enabled_reference) == hurensohn then
-		if e.chokedcommands == 0 then
-			run_tag_animation()
-		end
-	end
-	if ui_get(enabled_reference) == stiegl then
-		if e.chokedcommands == 0 then
-			run_tag_animation()
-		end
-	end
-	if ui_get(enabled_reference) == ottakring then
-		if e.chokedcommands == 0 then
-			run_tag_animation()
-		end
-	end
-	if ui_get(enabled_reference) == gosser then
-		if e.chokedcommands == 0 then
-			run_tag_animation()
-		end
-	end
-	if ui_get(enabled_reference) == punti then
 		if e.chokedcommands == 0 then
 			run_tag_animation()
 		end
